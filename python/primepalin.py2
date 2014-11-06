@@ -22,8 +22,6 @@ def primepalin():
                 i += 1
                 k -= 1
             if palin_flag == 0 and len(inp) > 1:
-                # print inp
-                # print current_val
                 if int(inp) > current_val:
                     current_val = int(inp)
     return current_val
