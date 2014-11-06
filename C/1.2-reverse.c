@@ -28,13 +28,13 @@ void reverse(char *a)
     /* Now start swapping characters from start of string with the
     * end of string, until pointers meet in MIDDLE */
 
-    while (a < end)
+    while (start < end)
     {
-      temp = *a;
-      *a++ = *end;
+      temp = *start;
+      *start++ = *end;
       *end-- = temp;
     }
-    a = start;
+//    start = a;
     printf("The reversed string is: %s\n", a);
   }
 }
