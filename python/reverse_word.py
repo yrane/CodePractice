@@ -1,3 +1,4 @@
+#To execute give command line arg as rev_test.txt
 import sys
 test_words = open(sys.argv[1]).read().split("\n")
 for test in test_words:
